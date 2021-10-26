@@ -368,11 +368,11 @@ nav label {
   }
 }
 
-#menuToggle:checked ~ ul {
+ul.ativo {
   transform: translateX(0%);
 }
 
-#menuToggle:checked ~ label {
+label.ativo {
   transform: rotate(90deg);
 }
 
